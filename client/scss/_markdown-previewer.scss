@@ -1,0 +1,32 @@
+
+
+.markdown-previewer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  
+  .markdown-form {
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 70%; 
+    border: medium;
+    border-radius: 5px;
+    
+    .md-textarea {
+      width: 90%;
+      height: 90%;
+      border-radius: 5px;
+      
+    }
+  }
+  .markdown-preview {
+    margin-top: 10px;
+    padding: 20px;
+    width: 50%;
+    height: 70%;
+    border: medium;
+    border-radius: 5px;
+  }
+}
